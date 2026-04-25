@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "nsbe",
+  "version": "${version}",
+  "name": "NotShitBlockEntities",
+  "description": "Makes Block Entities use Baked Models rather than Entity Models.",
+  "authors": [
+    "awruff"
+  ],
+  "contact": {
+    "homepage": "https://awruff.pages.gay/",
+    "sources": "https://codeberg.org/awruff/NotShitBlockEntities"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/nsbe/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.codeberg.awruff.nsbe.NotShitBlockEntities"
+    ]
+  },
+  "mixins": [
+    "nsbe.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.8.9"
+  }
+}
