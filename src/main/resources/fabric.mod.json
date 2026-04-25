@@ -11,9 +11,9 @@
     "homepage": "https://awruff.pages.gay/",
     "sources": "https://codeberg.org/awruff/NotShitBlockEntities"
   },
-  "license": "CC0-1.0",
+  "license": "OSL-3.0",
   "icon": "assets/nsbe/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "client": [
       "org.codeberg.awruff.nsbe.NotShitBlockEntities"
