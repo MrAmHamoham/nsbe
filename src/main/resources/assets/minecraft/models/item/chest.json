@@ -1,3 +1,6 @@
 {
-	"parent": "block/chest"
+  "parent": "item/template_chest_held",
+  "textures": {
+    "chest": "entity/chest/normal"
+  }
 }
