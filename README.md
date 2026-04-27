@@ -1,3 +1,6 @@
+# Project Hiatus
+I spent 12 hours trying to debug block states, I really don't know the issue.
+
 ## Not Shit Block Entities
 
 Makes Block Entities use Baked Models rather than Entity Models.
