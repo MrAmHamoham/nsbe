@@ -13,7 +13,6 @@ Makes Block Entities use Baked Models rather than Entity Models.
 
 
 ## Known Bugs
-- Particles aren't data driven
 - Double Chests appear as two single chests
 
 [OSL-3.0](LICENSE)

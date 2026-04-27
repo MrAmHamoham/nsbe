@@ -20,21 +20,20 @@ import java.util.List;
 @Mixin(BlockModelShaper.class)
 abstract class BlockModelShaperMixin {
 
-	@Final
-	@Shadow
-	private BlockModels models;
-
 	@Unique
 	private static final List<Block> DATA_DRIVEN_BLOCKS = Arrays.asList(
 		Blocks.CHEST,
 		Blocks.TRAPPED_CHEST,
 		Blocks.ENDER_CHEST
 	);
+	@Final
+	@Shadow
+	private BlockModels models;
 
 	@Inject(method = "init", at = @At("TAIL"))
 	private void makeChestsDataDriven(CallbackInfo ci) {
 		for (Block block : DATA_DRIVEN_BLOCKS) {
-			((IBlockModels)this.models).nsbe$unregister(block);
+			((IBlockModels) this.models).nsbe$unregister(block);
 
 			this.models.register(block,
 				new VariantBlockModelProvider.Builder()
