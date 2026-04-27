@@ -23,9 +23,4 @@ abstract class BlockEntitiesMixin extends Block {
 		return 3;
 	}
 
-	@Override
-	public boolean hasBlockEntity() {
-		return false;
-	}
-
 }

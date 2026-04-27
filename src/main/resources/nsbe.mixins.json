@@ -5,7 +5,9 @@
   "compatibilityLevel": "JAVA_8",
   "client": [
     "BlockEntitiesMixin",
-    "BlockEntityRenderDispatcherMixin"
+    "BlockEntityRenderDispatcherMixin",
+    "BlockModelShaperMixin",
+    "BlockModelsMixin"
   ],
   "injectors": {
     "defaultRequire": 1
