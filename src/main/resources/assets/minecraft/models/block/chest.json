@@ -1,5 +1,5 @@
 {
-	"parent": "block/template_chest_center",
+  "parent": "block/template_chest",
   "textures": {
     "chest": "entity/chest/normal"
   }

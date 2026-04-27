@@ -4,7 +4,7 @@
   "package": "org.codeberg.awruff.nsbe.mixin",
   "compatibilityLevel": "JAVA_8",
   "client": [
-    "BlockEntitiesMixin",
+    "blocks.ChestBlockMixin", "blocks.EnderChestBlockMixin",
     "BlockEntityRenderDispatcherMixin",
     "BlockModelShaperMixin",
     "BlockModelsMixin"

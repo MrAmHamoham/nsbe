@@ -1,6 +1,6 @@
 {
-	"parent": "block/template_chest_center",
-	"textures": {
-		"chest": "entity/chest/trapped"
-	}
+  "parent": "block/template_chest",
+  "textures": {
+    "chest": "entity/chest/trapped"
+  }
 }

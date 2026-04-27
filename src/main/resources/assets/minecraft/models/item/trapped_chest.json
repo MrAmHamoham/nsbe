@@ -1,6 +1,0 @@
-{
-  "parent": "item/template_chest_held",
-  "textures": {
-    "chest": "entity/chest/trapped"
-  }
-}
