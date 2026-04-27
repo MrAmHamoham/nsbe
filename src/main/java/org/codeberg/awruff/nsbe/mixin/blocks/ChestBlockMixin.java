@@ -18,6 +18,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Redirect;
 
 @Mixin(ChestBlock.class)
 abstract class ChestBlockMixin extends BlockWithBlockEntity {
@@ -30,6 +31,14 @@ abstract class ChestBlockMixin extends BlockWithBlockEntity {
 
 	private ChestBlockMixin(Material material) {
 		super(material);
+	}
+
+	@Redirect(
+		method = "<init>",
+		at = @At(value = "INVOKE", target = "Lnet/minecraft/block/ChestBlock;setDefaultState(Lnet/minecraft/block/state/BlockState;)V")
+	)
+	private void nsbe$setDefaultState(ChestBlock instance, BlockState state) {
+		setDefaultState(this.stateDefinition.any().set(FACING, Direction.NORTH).set(TYPE, ChestType.SINGLE));
 	}
 
 	@ModifyReturnValue(
@@ -57,8 +66,6 @@ abstract class ChestBlockMixin extends BlockWithBlockEntity {
 		@Local(argsOnly = true) World world,
 		@Local(argsOnly = true) BlockPos pos
 	) {
-		if (world.isClient) return state;
-
 		if (state.get(TYPE) == null) {
 			state = state.set(TYPE, ChestType.SINGLE);
 		}
