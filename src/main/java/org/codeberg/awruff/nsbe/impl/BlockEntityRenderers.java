@@ -1,5 +1,6 @@
 package org.codeberg.awruff.nsbe.impl;
 
+import net.minecraft.block.entity.BeaconBlockEntity;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.ChestBlockEntity;
 import net.minecraft.block.entity.EnderChestBlockEntity;
@@ -20,6 +21,10 @@ public class BlockEntityRenderers {
 
 		if (blockEntity instanceof SignBlockEntity) {
 			return hasText((SignBlockEntity) blockEntity);
+		}
+
+		if (blockEntity instanceof BeaconBlockEntity) {
+			return !((BeaconBlockEntity) blockEntity).getBeamSections().isEmpty();
 		}
 
 		return true;
