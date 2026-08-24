@@ -9,7 +9,7 @@ Makes Block Entities use Baked Models rather than Entity Models. + Other related
 - Beacons[^beacon]
 - Chests[^chest]
 - Ender Chests[^chest]
-- Signs
+- Signs[^sign]
 - Skulls[^skull]
 - Trapped Chests[^chest]
 
@@ -22,5 +22,7 @@ Makes Block Entities use Baked Models rather than Entity Models. + Other related
 [^beacon]: Skips beams when inactive.
 
 [^chest]: Only the static chest is baked.
+
+[^sign]: Except for signs with text.
 
 [^skull]: Except for player heads.
