@@ -16,12 +16,12 @@
     "block.entity.SkullBlockEntityMixin"
   ],
   "client": [
-    "compat.argentum.ChunkBuilderMeshingTaskMixin",
     "gui.SignEditScreenMixin",
     "network.handler.ClientPlayNetworkHandlerMixin",
     "render.block.BlockModelShaperMixin",
     "render.block.BlockRenderDispatcherMixin",
     "render.block.entity.BannerRendererMixin",
+    "render.block.entity.BlockEntityRenderDispatcherMixin",
     "render.block.entity.ChestRendererMixin",
     "render.block.entity.EnderChestRendererMixin",
     "render.block.entity.SignRendererMixin",
@@ -29,7 +29,6 @@
     "render.model.block.BlockModelMixin",
     "render.texture.StitcherMixin",
     "render.texture.TextureAtlasSpriteMixin",
-    "render.world.RenderChunkMixin",
     "resource.model.BlockModelsMixin",
     "resource.model.ModelManagerMixin"
   ]
