@@ -16,6 +16,7 @@
     "block.entity.SkullBlockEntityMixin"
   ],
   "client": [
+    "compat.argentum.ChunkBuilderMeshingTaskMixin",
     "gui.SignEditScreenMixin",
     "network.handler.ClientPlayNetworkHandlerMixin",
     "render.block.BlockModelShaperMixin",
