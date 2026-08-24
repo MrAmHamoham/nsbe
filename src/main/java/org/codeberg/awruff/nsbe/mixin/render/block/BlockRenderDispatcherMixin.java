@@ -1,34 +1,40 @@
 package org.codeberg.awruff.nsbe.mixin.render.block;
 
+import com.llamalad7.mixinextras.injector.ModifyReturnValue;
+import com.llamalad7.mixinextras.sugar.Local;
 import net.minecraft.block.Block;
 import net.minecraft.block.ChestBlock;
 import net.minecraft.block.EnderChestBlock;
 import net.minecraft.block.state.BlockState;
 import net.minecraft.client.render.block.BlockRenderDispatcher;
 import net.minecraft.client.render.texture.TextureAtlasSprite;
-import net.minecraft.client.render.vertex.BufferBuilder;
+import net.minecraft.client.resource.model.BakedModel;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.WorldView;
 import org.codeberg.awruff.nsbe.impl.ChestAnimation;
+import org.codeberg.awruff.nsbe.impl.EmptyBakedModel;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(BlockRenderDispatcher.class)
 abstract class BlockRenderDispatcherMixin {
 
-	@Inject(
-		method = "render(Lnet/minecraft/block/state/BlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/WorldView;Lnet/minecraft/client/render/vertex/BufferBuilder;)Z",
-		at = @At("HEAD"),
-		cancellable = true
+	@ModifyReturnValue(
+		method = "getModel(Lnet/minecraft/block/state/BlockState;Lnet/minecraft/world/WorldView;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/client/resource/model/BakedModel;",
+		at = @At("RETURN")
 	)
-	private void nsbe$skipOpenChests(BlockState state, BlockPos pos, WorldView world, BufferBuilder buffer, CallbackInfoReturnable<Boolean> cir) {
+	private BakedModel nsbe$hideOpenChests(
+		BakedModel original,
+		@Local(argsOnly = true) BlockState state, @Local(argsOnly = true) WorldView world, @Local(argsOnly = true) BlockPos pos
+	) {
 		if (nsbe$isOpenChest(state, world, pos)) {
-			cir.setReturnValue(false);
+			return EmptyBakedModel.of(original);
 		}
+
+		return original;
 	}
 
 	@Inject(

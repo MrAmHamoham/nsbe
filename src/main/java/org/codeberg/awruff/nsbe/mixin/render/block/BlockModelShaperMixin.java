@@ -6,6 +6,7 @@ import net.minecraft.block.SkullBlock;
 import net.minecraft.client.render.block.BlockModelShaper;
 import net.minecraft.client.resource.model.BlockModels;
 import net.minecraft.client.resource.model.VariantBlockModelProvider;
+import org.codeberg.awruff.nsbe.impl.EmptyBakedModel;
 import org.codeberg.awruff.nsbe.impl.IBlockModels;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -38,6 +39,8 @@ abstract class BlockModelShaperMixin {
 
 	@Inject(method = "init", at = @At("TAIL"))
 	private void nsbe$useBakedModels(CallbackInfo ci) {
+		EmptyBakedModel.clearCache();
+
 		for (Block block : DATA_DRIVEN_BLOCKS) {
 			nsbe$replaceProvider(block, new VariantBlockModelProvider.Builder());
 		}
