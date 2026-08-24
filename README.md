@@ -1,23 +1,26 @@
 # Not Shit Block Entities
 
-Makes Block Entities use Baked Models rather than Entity Models.
+Makes Block Entities use Baked Models rather than Entity Models. + Other related optimizations
 
 ---
 
-## Optimized Block Entities
-- Chests[^1]
-- Trapped Chests[^1]
-- Ender Chests[^1]
-- Banner Posts[^2]
+## Targets
+- Banner Posts[^banner]
+- Beacons[^beacon]
+- Chests[^chest]
+- Ender Chests[^chest]
 - Signs
-- Skulls[^3]
+- Skulls[^skull]
+- Trapped Chests[^chest]
 
 ---
 
 [OSL-3.0](LICENSE)
 
-[^1]: Chests uses the entity model for the opening animation.
+[^banner]: Only the post is baked.
 
-[^2]: The flag uses the entity model for the waving animation.
+[^beacon]: Skips beams when inactive.
 
-[^3]: Player skins can't be baked (thus using entity models)
+[^chest]: Only the static chest is baked.
+
+[^skull]: Except for player heads.
