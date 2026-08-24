@@ -1,0 +1,81 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "blocks/planks_oak",
+    "banner": "entity/banner_base"
+  },
+  "elements": [
+    {
+      "name": "pole",
+      "from": [7.33333, 0, 7.33333],
+      "to": [8.66667, 28, 8.66667],
+      "rotation": {
+        "origin": [8, 8, 8],
+        "axis": "y",
+        "angle": 22.5
+      },
+      "faces": {
+        "north": {
+          "uv": [12.5, 0.5, 13, 11],
+          "texture": "#banner"
+        },
+        "east": {
+          "uv": [12, 0.5, 12.5, 11],
+          "texture": "#banner"
+        },
+        "south": {
+          "uv": [11.5, 0.5, 12, 11],
+          "texture": "#banner"
+        },
+        "west": {
+          "uv": [11, 0.5, 11.5, 11],
+          "texture": "#banner"
+        },
+        "up": {
+          "uv": [11.5, 0, 12, 0.5],
+          "texture": "#banner"
+        },
+        "down": {
+          "uv": [12, 0.5, 12.5, 0],
+          "texture": "#banner"
+        }
+      }
+    },
+    {
+      "name": "bar",
+      "from": [1.33333, 28, 7.33333],
+      "to": [14.66667, 29.33333, 8.66667],
+      "rotation": {
+        "origin": [8, 8, 8],
+        "axis": "y",
+        "angle": 22.5
+      },
+      "faces": {
+        "north": {
+          "uv": [6, 11, 11, 11.5],
+          "texture": "#banner"
+        },
+        "east": {
+          "uv": [5.5, 11, 6, 11.5],
+          "texture": "#banner"
+        },
+        "south": {
+          "uv": [0.5, 11, 5.5, 11.5],
+          "texture": "#banner"
+        },
+        "west": {
+          "uv": [0, 11, 0.5, 11.5],
+          "texture": "#banner"
+        },
+        "up": {
+          "uv": [0.5, 10.5, 5.5, 11],
+          "texture": "#banner"
+        },
+        "down": {
+          "uv": [5.5, 11, 10.5, 10.5],
+          "texture": "#banner"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "blocks/planks_oak",
+    "sign": "entity/sign"
+  },
+  "elements": [
+    {
+      "name": "board",
+      "from": [0, 4.333333, 14.333333],
+      "to": [16, 12.333333, 15.666667],
+      "faces": {
+        "north": {
+          "uv": [0.5, 1, 6.5, 7],
+          "texture": "#sign"
+        },
+        "east": {
+          "uv": [0, 1, 0.5, 7],
+          "texture": "#sign"
+        },
+        "south": {
+          "uv": [7, 1, 13, 7],
+          "texture": "#sign"
+        },
+        "west": {
+          "uv": [6.5, 1, 7, 7],
+          "texture": "#sign"
+        },
+        "up": {
+          "uv": [6.5, 1, 0.5, 0],
+          "texture": "#sign"
+        },
+        "down": {
+          "uv": [12.5, 0, 6.5, 1],
+          "texture": "#sign"
+        }
+      }
+    }
+  ]
+}

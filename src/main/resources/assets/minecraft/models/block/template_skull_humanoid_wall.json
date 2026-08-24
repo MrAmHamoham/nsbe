@@ -1,0 +1,70 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "blocks/soul_sand"
+  },
+  "elements": [
+    {
+      "name": "skull",
+      "from": [4, 4, 7.84],
+      "to": [12, 12, 15.84],
+      "faces": {
+        "north": {
+          "uv": [2, 2, 4, 4],
+          "texture": "#skull"
+        },
+        "east": {
+          "uv": [0, 2, 2, 4],
+          "texture": "#skull"
+        },
+        "south": {
+          "uv": [6, 2, 8, 4],
+          "texture": "#skull"
+        },
+        "west": {
+          "uv": [4, 2, 6, 4],
+          "texture": "#skull"
+        },
+        "up": {
+          "uv": [4, 2, 2, 0],
+          "texture": "#skull"
+        },
+        "down": {
+          "uv": [6, 0, 4, 2],
+          "texture": "#skull"
+        }
+      }
+    },
+    {
+      "name": "hat",
+      "from": [3.75, 3.75, 7.59],
+      "to": [12.25, 12.25, 16.09],
+      "faces": {
+        "north": {
+          "uv": [10, 2, 12, 4],
+          "texture": "#skull"
+        },
+        "east": {
+          "uv": [8, 2, 10, 4],
+          "texture": "#skull"
+        },
+        "south": {
+          "uv": [14, 2, 16, 4],
+          "texture": "#skull"
+        },
+        "west": {
+          "uv": [12, 2, 14, 4],
+          "texture": "#skull"
+        },
+        "up": {
+          "uv": [12, 2, 10, 0],
+          "texture": "#skull"
+        },
+        "down": {
+          "uv": [14, 0, 12, 2],
+          "texture": "#skull"
+        }
+      }
+    }
+  ]
+}

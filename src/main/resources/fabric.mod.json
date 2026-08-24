@@ -14,11 +14,6 @@
   "license": "OSL-3.0",
   "icon": "assets/nsbe/icon.png",
   "environment": "client",
-  "entrypoints": {
-    "client": [
-      "org.codeberg.awruff.nsbe.NotShitBlockEntities"
-    ]
-  },
   "mixins": [
     "nsbe.mixins.json"
   ],

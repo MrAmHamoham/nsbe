@@ -1,0 +1,1732 @@
+{
+  "variants": {
+    "facing=down,rotation=0,type=skeleton": {
+      "model": "skull_skeleton_0"
+    },
+    "facing=down,rotation=0,type=wither": {
+      "model": "skull_wither_0"
+    },
+    "facing=down,rotation=0,type=zombie": {
+      "model": "skull_zombie_0"
+    },
+    "facing=down,rotation=0,type=creeper": {
+      "model": "skull_creeper_0"
+    },
+    "facing=down,rotation=0,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=1,type=skeleton": {
+      "model": "skull_skeleton_1"
+    },
+    "facing=down,rotation=1,type=wither": {
+      "model": "skull_wither_1"
+    },
+    "facing=down,rotation=1,type=zombie": {
+      "model": "skull_zombie_1"
+    },
+    "facing=down,rotation=1,type=creeper": {
+      "model": "skull_creeper_1"
+    },
+    "facing=down,rotation=1,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=2,type=skeleton": {
+      "model": "skull_skeleton_2"
+    },
+    "facing=down,rotation=2,type=wither": {
+      "model": "skull_wither_2"
+    },
+    "facing=down,rotation=2,type=zombie": {
+      "model": "skull_zombie_2"
+    },
+    "facing=down,rotation=2,type=creeper": {
+      "model": "skull_creeper_2"
+    },
+    "facing=down,rotation=2,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=3,type=skeleton": {
+      "model": "skull_skeleton_3",
+      "y": 90
+    },
+    "facing=down,rotation=3,type=wither": {
+      "model": "skull_wither_3",
+      "y": 90
+    },
+    "facing=down,rotation=3,type=zombie": {
+      "model": "skull_zombie_3",
+      "y": 90
+    },
+    "facing=down,rotation=3,type=creeper": {
+      "model": "skull_creeper_3",
+      "y": 90
+    },
+    "facing=down,rotation=3,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=4,type=skeleton": {
+      "model": "skull_skeleton_0",
+      "y": 90
+    },
+    "facing=down,rotation=4,type=wither": {
+      "model": "skull_wither_0",
+      "y": 90
+    },
+    "facing=down,rotation=4,type=zombie": {
+      "model": "skull_zombie_0",
+      "y": 90
+    },
+    "facing=down,rotation=4,type=creeper": {
+      "model": "skull_creeper_0",
+      "y": 90
+    },
+    "facing=down,rotation=4,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=5,type=skeleton": {
+      "model": "skull_skeleton_1",
+      "y": 90
+    },
+    "facing=down,rotation=5,type=wither": {
+      "model": "skull_wither_1",
+      "y": 90
+    },
+    "facing=down,rotation=5,type=zombie": {
+      "model": "skull_zombie_1",
+      "y": 90
+    },
+    "facing=down,rotation=5,type=creeper": {
+      "model": "skull_creeper_1",
+      "y": 90
+    },
+    "facing=down,rotation=5,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=6,type=skeleton": {
+      "model": "skull_skeleton_2",
+      "y": 90
+    },
+    "facing=down,rotation=6,type=wither": {
+      "model": "skull_wither_2",
+      "y": 90
+    },
+    "facing=down,rotation=6,type=zombie": {
+      "model": "skull_zombie_2",
+      "y": 90
+    },
+    "facing=down,rotation=6,type=creeper": {
+      "model": "skull_creeper_2",
+      "y": 90
+    },
+    "facing=down,rotation=6,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=7,type=skeleton": {
+      "model": "skull_skeleton_3",
+      "y": 180
+    },
+    "facing=down,rotation=7,type=wither": {
+      "model": "skull_wither_3",
+      "y": 180
+    },
+    "facing=down,rotation=7,type=zombie": {
+      "model": "skull_zombie_3",
+      "y": 180
+    },
+    "facing=down,rotation=7,type=creeper": {
+      "model": "skull_creeper_3",
+      "y": 180
+    },
+    "facing=down,rotation=7,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=8,type=skeleton": {
+      "model": "skull_skeleton_0",
+      "y": 180
+    },
+    "facing=down,rotation=8,type=wither": {
+      "model": "skull_wither_0",
+      "y": 180
+    },
+    "facing=down,rotation=8,type=zombie": {
+      "model": "skull_zombie_0",
+      "y": 180
+    },
+    "facing=down,rotation=8,type=creeper": {
+      "model": "skull_creeper_0",
+      "y": 180
+    },
+    "facing=down,rotation=8,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=9,type=skeleton": {
+      "model": "skull_skeleton_1",
+      "y": 180
+    },
+    "facing=down,rotation=9,type=wither": {
+      "model": "skull_wither_1",
+      "y": 180
+    },
+    "facing=down,rotation=9,type=zombie": {
+      "model": "skull_zombie_1",
+      "y": 180
+    },
+    "facing=down,rotation=9,type=creeper": {
+      "model": "skull_creeper_1",
+      "y": 180
+    },
+    "facing=down,rotation=9,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=10,type=skeleton": {
+      "model": "skull_skeleton_2",
+      "y": 180
+    },
+    "facing=down,rotation=10,type=wither": {
+      "model": "skull_wither_2",
+      "y": 180
+    },
+    "facing=down,rotation=10,type=zombie": {
+      "model": "skull_zombie_2",
+      "y": 180
+    },
+    "facing=down,rotation=10,type=creeper": {
+      "model": "skull_creeper_2",
+      "y": 180
+    },
+    "facing=down,rotation=10,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=11,type=skeleton": {
+      "model": "skull_skeleton_3",
+      "y": 270
+    },
+    "facing=down,rotation=11,type=wither": {
+      "model": "skull_wither_3",
+      "y": 270
+    },
+    "facing=down,rotation=11,type=zombie": {
+      "model": "skull_zombie_3",
+      "y": 270
+    },
+    "facing=down,rotation=11,type=creeper": {
+      "model": "skull_creeper_3",
+      "y": 270
+    },
+    "facing=down,rotation=11,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=12,type=skeleton": {
+      "model": "skull_skeleton_0",
+      "y": 270
+    },
+    "facing=down,rotation=12,type=wither": {
+      "model": "skull_wither_0",
+      "y": 270
+    },
+    "facing=down,rotation=12,type=zombie": {
+      "model": "skull_zombie_0",
+      "y": 270
+    },
+    "facing=down,rotation=12,type=creeper": {
+      "model": "skull_creeper_0",
+      "y": 270
+    },
+    "facing=down,rotation=12,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=13,type=skeleton": {
+      "model": "skull_skeleton_1",
+      "y": 270
+    },
+    "facing=down,rotation=13,type=wither": {
+      "model": "skull_wither_1",
+      "y": 270
+    },
+    "facing=down,rotation=13,type=zombie": {
+      "model": "skull_zombie_1",
+      "y": 270
+    },
+    "facing=down,rotation=13,type=creeper": {
+      "model": "skull_creeper_1",
+      "y": 270
+    },
+    "facing=down,rotation=13,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=14,type=skeleton": {
+      "model": "skull_skeleton_2",
+      "y": 270
+    },
+    "facing=down,rotation=14,type=wither": {
+      "model": "skull_wither_2",
+      "y": 270
+    },
+    "facing=down,rotation=14,type=zombie": {
+      "model": "skull_zombie_2",
+      "y": 270
+    },
+    "facing=down,rotation=14,type=creeper": {
+      "model": "skull_creeper_2",
+      "y": 270
+    },
+    "facing=down,rotation=14,type=player": {
+      "model": "skull_player"
+    },
+    "facing=down,rotation=15,type=skeleton": {
+      "model": "skull_skeleton_3"
+    },
+    "facing=down,rotation=15,type=wither": {
+      "model": "skull_wither_3"
+    },
+    "facing=down,rotation=15,type=zombie": {
+      "model": "skull_zombie_3"
+    },
+    "facing=down,rotation=15,type=creeper": {
+      "model": "skull_creeper_3"
+    },
+    "facing=down,rotation=15,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=0,type=skeleton": {
+      "model": "skull_skeleton_0"
+    },
+    "facing=up,rotation=0,type=wither": {
+      "model": "skull_wither_0"
+    },
+    "facing=up,rotation=0,type=zombie": {
+      "model": "skull_zombie_0"
+    },
+    "facing=up,rotation=0,type=creeper": {
+      "model": "skull_creeper_0"
+    },
+    "facing=up,rotation=0,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=1,type=skeleton": {
+      "model": "skull_skeleton_1"
+    },
+    "facing=up,rotation=1,type=wither": {
+      "model": "skull_wither_1"
+    },
+    "facing=up,rotation=1,type=zombie": {
+      "model": "skull_zombie_1"
+    },
+    "facing=up,rotation=1,type=creeper": {
+      "model": "skull_creeper_1"
+    },
+    "facing=up,rotation=1,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=2,type=skeleton": {
+      "model": "skull_skeleton_2"
+    },
+    "facing=up,rotation=2,type=wither": {
+      "model": "skull_wither_2"
+    },
+    "facing=up,rotation=2,type=zombie": {
+      "model": "skull_zombie_2"
+    },
+    "facing=up,rotation=2,type=creeper": {
+      "model": "skull_creeper_2"
+    },
+    "facing=up,rotation=2,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=3,type=skeleton": {
+      "model": "skull_skeleton_3",
+      "y": 90
+    },
+    "facing=up,rotation=3,type=wither": {
+      "model": "skull_wither_3",
+      "y": 90
+    },
+    "facing=up,rotation=3,type=zombie": {
+      "model": "skull_zombie_3",
+      "y": 90
+    },
+    "facing=up,rotation=3,type=creeper": {
+      "model": "skull_creeper_3",
+      "y": 90
+    },
+    "facing=up,rotation=3,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=4,type=skeleton": {
+      "model": "skull_skeleton_0",
+      "y": 90
+    },
+    "facing=up,rotation=4,type=wither": {
+      "model": "skull_wither_0",
+      "y": 90
+    },
+    "facing=up,rotation=4,type=zombie": {
+      "model": "skull_zombie_0",
+      "y": 90
+    },
+    "facing=up,rotation=4,type=creeper": {
+      "model": "skull_creeper_0",
+      "y": 90
+    },
+    "facing=up,rotation=4,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=5,type=skeleton": {
+      "model": "skull_skeleton_1",
+      "y": 90
+    },
+    "facing=up,rotation=5,type=wither": {
+      "model": "skull_wither_1",
+      "y": 90
+    },
+    "facing=up,rotation=5,type=zombie": {
+      "model": "skull_zombie_1",
+      "y": 90
+    },
+    "facing=up,rotation=5,type=creeper": {
+      "model": "skull_creeper_1",
+      "y": 90
+    },
+    "facing=up,rotation=5,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=6,type=skeleton": {
+      "model": "skull_skeleton_2",
+      "y": 90
+    },
+    "facing=up,rotation=6,type=wither": {
+      "model": "skull_wither_2",
+      "y": 90
+    },
+    "facing=up,rotation=6,type=zombie": {
+      "model": "skull_zombie_2",
+      "y": 90
+    },
+    "facing=up,rotation=6,type=creeper": {
+      "model": "skull_creeper_2",
+      "y": 90
+    },
+    "facing=up,rotation=6,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=7,type=skeleton": {
+      "model": "skull_skeleton_3",
+      "y": 180
+    },
+    "facing=up,rotation=7,type=wither": {
+      "model": "skull_wither_3",
+      "y": 180
+    },
+    "facing=up,rotation=7,type=zombie": {
+      "model": "skull_zombie_3",
+      "y": 180
+    },
+    "facing=up,rotation=7,type=creeper": {
+      "model": "skull_creeper_3",
+      "y": 180
+    },
+    "facing=up,rotation=7,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=8,type=skeleton": {
+      "model": "skull_skeleton_0",
+      "y": 180
+    },
+    "facing=up,rotation=8,type=wither": {
+      "model": "skull_wither_0",
+      "y": 180
+    },
+    "facing=up,rotation=8,type=zombie": {
+      "model": "skull_zombie_0",
+      "y": 180
+    },
+    "facing=up,rotation=8,type=creeper": {
+      "model": "skull_creeper_0",
+      "y": 180
+    },
+    "facing=up,rotation=8,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=9,type=skeleton": {
+      "model": "skull_skeleton_1",
+      "y": 180
+    },
+    "facing=up,rotation=9,type=wither": {
+      "model": "skull_wither_1",
+      "y": 180
+    },
+    "facing=up,rotation=9,type=zombie": {
+      "model": "skull_zombie_1",
+      "y": 180
+    },
+    "facing=up,rotation=9,type=creeper": {
+      "model": "skull_creeper_1",
+      "y": 180
+    },
+    "facing=up,rotation=9,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=10,type=skeleton": {
+      "model": "skull_skeleton_2",
+      "y": 180
+    },
+    "facing=up,rotation=10,type=wither": {
+      "model": "skull_wither_2",
+      "y": 180
+    },
+    "facing=up,rotation=10,type=zombie": {
+      "model": "skull_zombie_2",
+      "y": 180
+    },
+    "facing=up,rotation=10,type=creeper": {
+      "model": "skull_creeper_2",
+      "y": 180
+    },
+    "facing=up,rotation=10,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=11,type=skeleton": {
+      "model": "skull_skeleton_3",
+      "y": 270
+    },
+    "facing=up,rotation=11,type=wither": {
+      "model": "skull_wither_3",
+      "y": 270
+    },
+    "facing=up,rotation=11,type=zombie": {
+      "model": "skull_zombie_3",
+      "y": 270
+    },
+    "facing=up,rotation=11,type=creeper": {
+      "model": "skull_creeper_3",
+      "y": 270
+    },
+    "facing=up,rotation=11,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=12,type=skeleton": {
+      "model": "skull_skeleton_0",
+      "y": 270
+    },
+    "facing=up,rotation=12,type=wither": {
+      "model": "skull_wither_0",
+      "y": 270
+    },
+    "facing=up,rotation=12,type=zombie": {
+      "model": "skull_zombie_0",
+      "y": 270
+    },
+    "facing=up,rotation=12,type=creeper": {
+      "model": "skull_creeper_0",
+      "y": 270
+    },
+    "facing=up,rotation=12,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=13,type=skeleton": {
+      "model": "skull_skeleton_1",
+      "y": 270
+    },
+    "facing=up,rotation=13,type=wither": {
+      "model": "skull_wither_1",
+      "y": 270
+    },
+    "facing=up,rotation=13,type=zombie": {
+      "model": "skull_zombie_1",
+      "y": 270
+    },
+    "facing=up,rotation=13,type=creeper": {
+      "model": "skull_creeper_1",
+      "y": 270
+    },
+    "facing=up,rotation=13,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=14,type=skeleton": {
+      "model": "skull_skeleton_2",
+      "y": 270
+    },
+    "facing=up,rotation=14,type=wither": {
+      "model": "skull_wither_2",
+      "y": 270
+    },
+    "facing=up,rotation=14,type=zombie": {
+      "model": "skull_zombie_2",
+      "y": 270
+    },
+    "facing=up,rotation=14,type=creeper": {
+      "model": "skull_creeper_2",
+      "y": 270
+    },
+    "facing=up,rotation=14,type=player": {
+      "model": "skull_player"
+    },
+    "facing=up,rotation=15,type=skeleton": {
+      "model": "skull_skeleton_3"
+    },
+    "facing=up,rotation=15,type=wither": {
+      "model": "skull_wither_3"
+    },
+    "facing=up,rotation=15,type=zombie": {
+      "model": "skull_zombie_3"
+    },
+    "facing=up,rotation=15,type=creeper": {
+      "model": "skull_creeper_3"
+    },
+    "facing=up,rotation=15,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=0,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=0,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=0,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=0,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=0,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=1,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=1,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=1,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=1,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=1,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=2,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=2,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=2,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=2,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=2,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=3,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=3,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=3,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=3,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=3,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=4,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=4,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=4,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=4,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=4,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=5,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=5,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=5,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=5,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=5,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=6,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=6,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=6,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=6,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=6,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=7,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=7,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=7,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=7,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=7,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=8,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=8,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=8,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=8,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=8,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=9,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=9,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=9,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=9,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=9,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=10,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=10,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=10,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=10,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=10,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=11,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=11,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=11,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=11,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=11,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=12,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=12,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=12,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=12,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=12,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=13,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=13,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=13,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=13,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=13,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=14,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=14,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=14,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=14,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=14,type=player": {
+      "model": "skull_player"
+    },
+    "facing=north,rotation=15,type=skeleton": {
+      "model": "skull_skeleton_wall"
+    },
+    "facing=north,rotation=15,type=wither": {
+      "model": "skull_wither_wall"
+    },
+    "facing=north,rotation=15,type=zombie": {
+      "model": "skull_zombie_wall"
+    },
+    "facing=north,rotation=15,type=creeper": {
+      "model": "skull_creeper_wall"
+    },
+    "facing=north,rotation=15,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=0,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=0,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=0,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=0,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=0,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=1,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=1,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=1,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=1,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=1,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=2,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=2,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=2,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=2,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=2,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=3,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=3,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=3,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=3,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=3,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=4,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=4,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=4,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=4,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=4,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=5,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=5,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=5,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=5,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=5,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=6,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=6,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=6,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=6,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=6,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=7,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=7,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=7,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=7,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=7,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=8,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=8,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=8,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=8,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=8,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=9,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=9,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=9,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=9,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=9,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=10,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=10,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=10,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=10,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=10,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=11,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=11,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=11,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=11,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=11,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=12,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=12,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=12,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=12,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=12,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=13,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=13,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=13,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=13,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=13,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=14,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=14,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=14,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=14,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=14,type=player": {
+      "model": "skull_player"
+    },
+    "facing=south,rotation=15,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 180
+    },
+    "facing=south,rotation=15,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 180
+    },
+    "facing=south,rotation=15,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 180
+    },
+    "facing=south,rotation=15,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 180
+    },
+    "facing=south,rotation=15,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=0,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=0,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=0,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=0,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=0,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=1,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=1,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=1,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=1,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=1,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=2,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=2,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=2,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=2,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=2,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=3,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=3,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=3,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=3,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=3,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=4,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=4,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=4,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=4,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=4,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=5,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=5,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=5,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=5,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=5,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=6,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=6,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=6,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=6,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=6,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=7,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=7,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=7,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=7,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=7,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=8,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=8,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=8,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=8,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=8,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=9,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=9,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=9,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=9,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=9,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=10,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=10,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=10,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=10,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=10,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=11,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=11,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=11,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=11,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=11,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=12,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=12,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=12,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=12,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=12,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=13,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=13,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=13,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=13,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=13,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=14,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=14,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=14,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=14,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=14,type=player": {
+      "model": "skull_player"
+    },
+    "facing=east,rotation=15,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 90
+    },
+    "facing=east,rotation=15,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 90
+    },
+    "facing=east,rotation=15,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 90
+    },
+    "facing=east,rotation=15,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 90
+    },
+    "facing=east,rotation=15,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=0,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=0,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=0,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=0,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=0,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=1,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=1,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=1,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=1,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=1,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=2,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=2,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=2,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=2,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=2,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=3,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=3,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=3,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=3,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=3,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=4,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=4,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=4,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=4,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=4,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=5,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=5,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=5,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=5,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=5,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=6,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=6,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=6,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=6,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=6,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=7,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=7,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=7,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=7,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=7,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=8,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=8,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=8,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=8,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=8,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=9,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=9,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=9,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=9,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=9,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=10,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=10,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=10,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=10,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=10,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=11,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=11,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=11,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=11,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=11,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=12,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=12,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=12,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=12,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=12,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=13,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=13,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=13,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=13,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=13,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=14,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=14,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=14,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=14,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=14,type=player": {
+      "model": "skull_player"
+    },
+    "facing=west,rotation=15,type=skeleton": {
+      "model": "skull_skeleton_wall",
+      "y": 270
+    },
+    "facing=west,rotation=15,type=wither": {
+      "model": "skull_wither_wall",
+      "y": 270
+    },
+    "facing=west,rotation=15,type=zombie": {
+      "model": "skull_zombie_wall",
+      "y": 270
+    },
+    "facing=west,rotation=15,type=creeper": {
+      "model": "skull_creeper_wall",
+      "y": 270
+    },
+    "facing=west,rotation=15,type=player": {
+      "model": "skull_player"
+    }
+  }
+}

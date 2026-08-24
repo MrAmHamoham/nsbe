@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_skull_2",
+  "textures": {
+    "skull": "entity/skeleton/skeleton"
+  }
+}

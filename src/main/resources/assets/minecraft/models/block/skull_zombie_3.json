@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_skull_humanoid_3",
+  "textures": {
+    "skull": "entity/zombie/zombie"
+  }
+}

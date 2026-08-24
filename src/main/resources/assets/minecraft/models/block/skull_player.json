@@ -1,0 +1,20 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "blocks/soul_sand",
+    "skull": "entity/steve"
+  },
+  "elements": [
+    {
+      "name": "empty",
+      "from": [8, 8, 8],
+      "to": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 0, 0],
+          "texture": "#skull"
+        }
+      }
+    }
+  ]
+}

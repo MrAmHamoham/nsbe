@@ -1,6 +1,7 @@
 {
   "parent": "block/template_chest",
   "textures": {
+    "particle": "blocks/obsidian",
     "chest": "entity/chest/ender"
   }
 }

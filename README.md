@@ -1,21 +1,23 @@
-# Project Hiatus
-I spent 12 hours trying to debug block states, I really don't know the issue.
-
-## Not Shit Block Entities
+# Not Shit Block Entities
 
 Makes Block Entities use Baked Models rather than Entity Models.
 
 ---
 
-## Not Bugs
-- No animations
-  - I may add animations later, but as of now this is intentional
-- Texture Packs don't apply
-  - For double chests, I don't believe this can be fixed (easily, that is)
-  - Vanilla uses a 128x64 texture, while normal block models require a 1:1 aspect ratio
+## Optimized Block Entities
+- Chests[^1]
+- Trapped Chests[^1]
+- Ender Chests[^1]
+- Banner Posts[^2]
+- Signs
+- Skulls[^3]
 
-
-## Known Bugs
-- Double Chests appear as two single chests
+---
 
 [OSL-3.0](LICENSE)
+
+[^1]: Chests uses the entity model for the opening animation.
+
+[^2]: The flag uses the entity model for the waving animation.
+
+[^3]: Player skins can't be baked (thus using entity models)

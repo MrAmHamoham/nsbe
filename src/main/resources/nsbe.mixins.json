@@ -3,13 +3,33 @@
   "minVersion": "0.8",
   "package": "org.codeberg.awruff.nsbe.mixin",
   "compatibilityLevel": "JAVA_8",
-  "client": [
-    "blocks.ChestBlockMixin", "blocks.EnderChestBlockMixin",
-    "BlockEntityRenderDispatcherMixin",
-    "BlockModelShaperMixin",
-    "BlockModelsMixin"
-  ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "mixins": [
+    "block.BlockEntitiesMixin",
+    "block.ChestBlockMixin",
+    "block.SkullBlockMixin",
+    "block.entity.ChestBlockEntityMixin",
+    "block.entity.EnderChestBlockEntityMixin",
+    "block.entity.SignBlockEntityMixin",
+    "block.entity.SkullBlockEntityMixin"
+  ],
+  "client": [
+    "gui.SignEditScreenMixin",
+    "network.handler.ClientPlayNetworkHandlerMixin",
+    "render.block.BlockModelShaperMixin",
+    "render.block.BlockRenderDispatcherMixin",
+    "render.block.entity.BannerRendererMixin",
+    "render.block.entity.ChestRendererMixin",
+    "render.block.entity.EnderChestRendererMixin",
+    "render.block.entity.SignRendererMixin",
+    "render.block.entity.SkullRendererMixin",
+    "render.model.block.BlockModelMixin",
+    "render.texture.StitcherMixin",
+    "render.texture.TextureAtlasSpriteMixin",
+    "render.world.RenderChunkMixin",
+    "resource.model.BlockModelsMixin",
+    "resource.model.ModelManagerMixin"
+  ]
 }

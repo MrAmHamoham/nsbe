@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "rotation=0": {
+      "model": "standing_sign"
+    },
+    "rotation=1": {
+      "model": "standing_sign_cw22"
+    },
+    "rotation=2": {
+      "model": "standing_sign_cw45"
+    },
+    "rotation=3": {
+      "model": "standing_sign_ccw22",
+      "y": 90
+    },
+    "rotation=4": {
+      "model": "standing_sign",
+      "y": 90
+    },
+    "rotation=5": {
+      "model": "standing_sign_cw22",
+      "y": 90
+    },
+    "rotation=6": {
+      "model": "standing_sign_cw45",
+      "y": 90
+    },
+    "rotation=7": {
+      "model": "standing_sign_ccw22",
+      "y": 180
+    },
+    "rotation=8": {
+      "model": "standing_sign",
+      "y": 180
+    },
+    "rotation=9": {
+      "model": "standing_sign_cw22",
+      "y": 180
+    },
+    "rotation=10": {
+      "model": "standing_sign_cw45",
+      "y": 180
+    },
+    "rotation=11": {
+      "model": "standing_sign_ccw22",
+      "y": 270
+    },
+    "rotation=12": {
+      "model": "standing_sign",
+      "y": 270
+    },
+    "rotation=13": {
+      "model": "standing_sign_cw22",
+      "y": 270
+    },
+    "rotation=14": {
+      "model": "standing_sign_cw45",
+      "y": 270
+    },
+    "rotation=15": {
+      "model": "standing_sign_ccw22"
+    }
+  }
+}
