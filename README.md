@@ -13,8 +13,6 @@ Makes Block Entities use Baked Models rather than Entity Models. + Other related
 - Skulls[^skull]
 - Trapped Chests[^chest]
 
----
-
 [^banner]: Only the post is baked.
 
 [^beacon]: Skips beams when inactive.
