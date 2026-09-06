@@ -29,6 +29,7 @@
     "render.model.block.BlockModelMixin",
     "render.texture.StitcherMixin",
     "render.texture.TextureAtlasSpriteMixin",
+    "render.world.RenderChunkMixin",
     "resource.model.BlockModelsMixin",
     "resource.model.ModelManagerMixin"
   ]
