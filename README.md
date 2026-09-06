@@ -1,4 +1,4 @@
-# Not Shit Block Entities
+# NSBE
 
 Makes Block Entities use Baked Models rather than Entity Models. + Other related optimizations
 

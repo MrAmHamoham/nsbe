@@ -2,17 +2,15 @@
   "schemaVersion": 1,
   "id": "nsbe",
   "version": "${version}",
-  "name": "NotShitBlockEntities",
+  "name": "NSBE",
   "description": "Makes Block Entities use Baked Models rather than Entity Models.",
   "authors": [
     "awruff"
   ],
   "contact": {
-    "homepage": "https://awruff.pages.gay/",
-    "sources": "https://codeberg.org/awruff/NotShitBlockEntities"
+    "sources": "https://codeberg.org/awruff/nsbe"
   },
   "license": "OSL-3.0",
-  "icon": "assets/nsbe/icon.png",
   "environment": "client",
   "mixins": [
     "nsbe.mixins.json"
