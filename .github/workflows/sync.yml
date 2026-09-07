@@ -1,0 +1,48 @@
+name: Pull from Codeberg
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-pull:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout GitHub Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync Codeberg without deleting workflows
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add upstream Codeberg remote
+          git remote add codeberg https://codeberg.org/awruff/nsbe.git
+          git fetch codeberg
+
+          # Compare local HEAD with Codeberg's master branch
+          LOCAL_HASH=$(git rev-parse HEAD)
+          REMOTE_HASH=$(git rev-parse codeberg/master)
+
+          if [ "$LOCAL_HASH" = "$REMOTE_HASH" ]; then
+            echo "No changes detected. Skipping push."
+          else
+            echo "New changes found on Codeberg. Syncing..."
+
+            # Merge Codeberg master into GitHub main without auto-committing
+            git merge codeberg/master --no-commit --allow-unrelated-histories -X ours || true
+
+            # Restore the .github directory from local commit to preserve workflows
+            git checkout HEAD -- .github/
+
+            # Commit and push updated code back to GitHub
+            git commit -m "Sync code from Codeberg (preserving workflows)" || echo "No changes to commit"
+            git push origin HEAD:main
+          fi
